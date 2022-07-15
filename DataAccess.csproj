@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>DataAccess</AssemblyName>
+    <RootNamespace>DataAccess</RootNamespace>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Description>This library is for used CRUD operations on SQL Server database.</Description>
+    <PackageTags>CRUD SQL</PackageTags>
+    <PackageReleaseNotes>Initial version</PackageReleaseNotes>
+    <Authors>Stan Mozolevskiy</Authors>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+</Project>
+
